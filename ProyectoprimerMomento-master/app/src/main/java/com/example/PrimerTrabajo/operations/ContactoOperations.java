@@ -12,8 +12,8 @@ import com.example.PrimerTrabajo.models.ContactoModel;
 import java.util.ArrayList;
 
 public class ContactoOperations {
-    private static final String NOMBRE_BASE_DE_DATOS = "Giovanny.db";
-    private static final String NOMBRE_TABLA = "usuario";
+    private static final String NOMBRE_BASE_DE_DATOS = "Formulario.db";
+    private static final String NOMBRE_TABLA = "contacto";
     private static final int VERSION_DB = 2;
     public static SQLiteDatabase database;
     public final Context context;
